@@ -1,6 +1,6 @@
 // pages/HomePage.js
 import React, { useState, useEffect } from 'react';
-import ProductCard from './components/ProductCard';
+import ProductCard from '../components/Productcard';
 import { useNavigate } from 'react-router-dom';
 
 const HomePage = ({ addToCart }) => {
